@@ -11,3 +11,108 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.theme-color-background {
+  background-color: #2aa6bb;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.h-252 {
+  height: 252px;
+}
+
+footer {
+  background: #2aa6bb;
+  padding: 15px;
+  text-align: center;
+}
+
+.todo-list {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  box-shadow:
+  /* The top layer shadow */ 0 1px 1px rgba(0, 0, 0, 0.15),
+    /* The second layer */ 0 10px 0 -5px #eee,
+    /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 20px 0 -10px #eee,
+    /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type='checkbox']:focus {
+  outline: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+.main-div {
+  margin-bottom: 40px;
+}
+
+ol {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.item-list {
+  margin-bottom: 20px;
+}
+.nav-item a.active {
+  background: white;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.nav-item {
+  margin-right: 10px;
+  padding: 3px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+.active {
+  color: #2bb6aa !important;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+NavLink {
+  color: white;
+}
